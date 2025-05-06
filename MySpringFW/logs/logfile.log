@@ -1,0 +1,92 @@
+2025-04-28 17:14:22 361 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-28 17:14:22 362 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-28 17:14:22 363 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 09:55:22 052 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 09:55:22 233 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 09:55:22 234 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 09:55:22 234 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 09:56:49 066 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 09:56:49 263 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 09:56:49 263 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 09:56:49 264 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 10:30:49 377 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 10:30:49 593 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 10:30:49 593 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 10:30:49 594 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 10:30:49 611 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-04-29 10:30:49 613 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502f1f4c] was not registered for synchronization because synchronization is not active
+2025-04-29 10:30:49 624 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1493988307 wrapping org.mariadb.jdbc.MariaDbConnection@6b9ce1bf] will not be managed by Spring
+2025-04-29 10:30:49 639 [main] DEBUG userNS.selectUserById - ==>  Preparing: select * from users where userid=? 
+2025-04-29 10:30:49 680 [main] DEBUG userNS.selectUserById - ==> Parameters: dooly(String)
+2025-04-29 10:30:49 704 [main] DEBUG userNS.selectUserById - <==      Total: 1
+2025-04-29 10:30:49 706 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502f1f4c]
+2025-04-29 10:48:43 882 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 10:48:44 132 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 10:48:44 132 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 10:48:44 133 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 10:48:44 150 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-04-29 10:48:44 153 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502f1f4c] was not registered for synchronization because synchronization is not active
+2025-04-29 10:48:44 162 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1493988307 wrapping org.mariadb.jdbc.MariaDbConnection@6b9ce1bf] will not be managed by Spring
+2025-04-29 10:48:44 178 [main] DEBUG userNS.selectUserById - ==>  Preparing: select * from users where userid=? 
+2025-04-29 10:48:44 224 [main] DEBUG userNS.selectUserById - ==> Parameters: dooly(String)
+2025-04-29 10:48:44 247 [main] DEBUG userNS.selectUserById - <==      Total: 1
+2025-04-29 10:48:44 249 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502f1f4c]
+2025-04-29 10:48:44 253 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=2, userId=dooly, name=둘리, gender=여, city=부산]
+2025-04-29 10:48:44 253 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-04-29 10:48:44 253 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@652a7737] was not registered for synchronization because synchronization is not active
+2025-04-29 10:48:44 254 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1535026957 wrapping org.mariadb.jdbc.MariaDbConnection@6b9ce1bf] will not be managed by Spring
+2025-04-29 10:48:44 254 [main] DEBUG userNS.selectUserList - ==>  Preparing: select * from users order by id 
+2025-04-29 10:48:44 255 [main] DEBUG userNS.selectUserList - ==> Parameters: 
+2025-04-29 10:48:44 257 [main] DEBUG userNS.selectUserList - <==      Total: 2
+2025-04-29 10:48:44 257 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@652a7737]
+2025-04-29 10:48:44 257 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=1, userId=gildong, name=홍길동, gender=남, city=서울]
+2025-04-29 10:48:44 257 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=2, userId=dooly, name=둘리, gender=여, city=부산]
+2025-04-29 10:58:31 189 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 10:58:31 408 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 10:58:31 408 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 10:58:31 409 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 10:58:31 428 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-04-29 10:58:31 431 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502f1f4c] was not registered for synchronization because synchronization is not active
+2025-04-29 10:58:31 440 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1493988307 wrapping org.mariadb.jdbc.MariaDbConnection@6b9ce1bf] will not be managed by Spring
+2025-04-29 10:58:31 455 [main] DEBUG userNS.selectUserById - ==>  Preparing: select * from users where userid=? 
+2025-04-29 10:58:31 500 [main] DEBUG userNS.selectUserById - ==> Parameters: dooly(String)
+2025-04-29 10:58:31 523 [main] DEBUG userNS.selectUserById - <==      Total: 1
+2025-04-29 10:58:31 524 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@502f1f4c]
+2025-04-29 10:58:31 528 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=2, userId=dooly, name=둘리, gender=여, city=부산]
+2025-04-29 10:58:31 528 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-04-29 10:58:31 528 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@652a7737] was not registered for synchronization because synchronization is not active
+2025-04-29 10:58:31 529 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1535026957 wrapping org.mariadb.jdbc.MariaDbConnection@6b9ce1bf] will not be managed by Spring
+2025-04-29 10:58:31 529 [main] DEBUG userNS.selectUserList - ==>  Preparing: select * from users order by id 
+2025-04-29 10:58:31 530 [main] DEBUG userNS.selectUserList - ==> Parameters: 
+2025-04-29 10:58:31 531 [main] DEBUG userNS.selectUserList - <==      Total: 2
+2025-04-29 10:58:31 532 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@652a7737]
+2025-04-29 10:58:31 532 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=1, userId=gildong, name=홍길동, gender=남, city=서울]
+2025-04-29 10:58:31 532 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=2, userId=dooly, name=둘리, gender=여, city=부산]
+2025-04-29 10:58:31 533 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=1, userId=gildong, name=홍길동, gender=남, city=서울]
+2025-04-29 10:58:31 533 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=2, userId=dooly, name=둘리, gender=여, city=부산]
+2025-04-29 13:29:27 849 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/seojaemin/Documents/workspace-spring-tools-eclipse/MySpring/MySpringFW/target/classes/myspring/user/dao/mapper/UserMapper.class]
+2025-04-29 13:29:27 853 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'myspring.user.dao.mapper.UserMapper' mapperInterface
+2025-04-29 13:29:28 039 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 13:29:28 292 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 13:29:28 292 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 13:29:28 293 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 13:30:25 717 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/seojaemin/Documents/workspace-spring-tools-eclipse/MySpring/MySpringFW/target/classes/myspring/user/dao/mapper/UserMapper.class]
+2025-04-29 13:30:25 721 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'myspring.user.dao.mapper.UserMapper' mapperInterface
+2025-04-29 13:30:25 911 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 13:30:26 182 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 13:30:26 183 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 13:30:26 183 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
+2025-04-29 13:32:05 887 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/seojaemin/Documents/workspace-spring-tools-eclipse/MySpring/MySpringFW/target/classes/myspring/user/dao/mapper/UserMapper.class]
+2025-04-29 13:32:05 893 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'myspring.user.dao.mapper.UserMapper' mapperInterface
+2025-04-29 13:32:06 084 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2025-04-29 13:32:06 250 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2025-04-29 13:32:06 256 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57eda880] was not registered for synchronization because synchronization is not active
+2025-04-29 13:32:06 327 [main] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@58890945 wrapping org.mariadb.jdbc.MariaDbConnection@4baf352a] will not be managed by Spring
+2025-04-29 13:32:06 337 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==>  Preparing: select * from users where userid=? 
+2025-04-29 13:32:06 378 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - ==> Parameters: gildong(String)
+2025-04-29 13:32:06 410 [main] DEBUG myspring.user.dao.mapper.UserMapper.selectUserById - <==      Total: 1
+2025-04-29 13:32:06 413 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@57eda880]
+2025-04-29 13:32:06 417 [main] DEBUG myspring.user.UserMyBatisTest - UserVO [id=1, userId=gildong, name=홍길동, gender=남, city=서울]
+2025-04-29 13:32:06 431 [main] DEBUG myspring.user.UserMyBatisTest - DB URL = jdbc:mariadb://127.0.0.1:3306/spring_db
+2025-04-29 13:32:06 431 [main] DEBUG myspring.user.UserMyBatisTest - DB Username = spring
+2025-04-29 13:32:06 433 [main] DEBUG myspring.user.UserMyBatisTest - DB Vendor Name = MariaDB
